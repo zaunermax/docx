@@ -37,3 +37,7 @@ export interface IParagraphStyleOptions2 {
     readonly keepLines?: boolean;
     readonly outlineLevel?: number;
 }
+
+// FIXME: revert my commit when this is fixed from the upstream
+// to add this file to the build require an empty class from it
+export class QuickFixHack {}

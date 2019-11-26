@@ -13,7 +13,10 @@ import {
 import { ParagraphProperties } from "../paragraph/properties";
 import * as formatting from "../paragraph/run/formatting";
 import { RunProperties } from "../paragraph/run/properties";
-import { IParagraphStyleOptions2, IRunStyleOptions } from "../styles/style-options";
+import { IParagraphStyleOptions2, IRunStyleOptions, QuickFixHack } from "../styles/style-options";
+
+// tslint:disable-next-line:no-unused-expression
+new QuickFixHack();
 
 interface ILevelAttributesProperties {
     readonly ilvl?: number;
